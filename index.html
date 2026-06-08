@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Players Hub | Grassroots Football Development Centre – North London</title>
+  <meta name="description" content="The Players Hub is a safe, structured football development centre in North London, helping players of all ages build their football dreams." />
+
+  <!-- ============================================================
+       FONTS
+  ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#" class="nav-logo" aria-label="The Players Hub home">
+          <img src="logo.jpg" alt="The Players Hub logo" class="nav-logo-img" />
+          <div class="nav-brand">
+            <span class="nav-brand-name">The Players Hub</span>
+            <span class="nav-brand-sub">North London</span>
+          </div>
+        </a>
+
+        <ul class="nav-links" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#pathway">Pathway</a></li>
+          <li><a href="#pricing">Training Plans</a></li>
+          <li><a href="#founder">Founder</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="#signup" class="btn btn-primary">Sign Up With Us</a>
+        </div>
+
+        <!-- Mobile hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile nav overlay -->
+  <div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Mobile navigation">
+    <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">&times;</button>
+    <a href="#about"    onclick="closeMobileNav()">About</a>
+    <a href="#pathway"  onclick="closeMobileNav()">Development Pathway</a>
+    <a href="#pricing"  onclick="closeMobileNav()">Training Plans</a>
+    <a href="#founder"  onclick="closeMobileNav()">Our Founder</a>
+    <a href="#signup"   onclick="closeMobileNav()" class="btn btn-primary" style="margin-top:16px;">Sign Up With Us</a>
+  </div>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="hero" aria-label="Hero">
+
+    <div class="hero-bg">
+      <img src="hero.jpg" alt="Players training at The Players Hub" />
+    </div>
+
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+
+      <!-- Live indicator badge -->
+      <div class="hero-badge reveal">
+        <div class="hero-badge-dot" aria-hidden="true"></div>
+        <span>Now Accepting Players &bull; North London</span>
+      </div>
+
+      <!-- Logo block -->
+      <div class="hero-logo-block reveal reveal-delay-1">
+        <img src="logo.jpg" alt="The Players Hub logo" class="hero-logo" />
+      </div>
+
+      <!-- Headline -->
+      <h1 class="hero-headline reveal reveal-delay-2">
+        Grassroots Development.<br>
+        <em>Elite Football Pathways.</em>
+      </h1>
+
+      <p class="hero-subheading reveal reveal-delay-3">
+        A safe, structured football development centre in North London, helping players of all ages build their dreams.
+      </p>
+
+      <div class="hero-buttons reveal reveal-delay-4">
+        <a href="#signup"  class="btn btn-primary">Sign Up With Us</a>
+        <a href="#pricing" class="btn btn-secondary">View Training Plans</a>
+      </div>
+
+      <!-- Stats bar -->
+      <div class="hero-stats reveal reveal-delay-5" aria-label="Key stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">All</div>
+          <div class="hero-stat-label">Age Groups</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">1×</div>
+          <div class="hero-stat-label">Weekly Session</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">Elite</div>
+          <div class="hero-stat-label">Pathways</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT US SECTION
+  ============================================================ -->
+  <section id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Image column -->
+        <div class="about-image-block reveal">
+          <img src="team.jpg" alt="Players at The Players Hub" class="about-image-main" />
+        </div>
+
+        <!-- Content column -->
+        <div class="about-content">
+          <span class="section-label">About Us</span>
+          <h2 class="section-title reveal" id="about-title">
+            Building a Platform for<br>Grassroots <span class="gold-text">Football</span>
+          </h2>
+          <div class="divider-gold"></div>
+
+          <p class="section-subtitle reveal reveal-delay-1">
+            We want to achieve a platform for players in grassroots — the developmental pathways to elite football. The Players Hub is more than a training centre; it is a community built on opportunity.
+          </p>
+
+          <p class="section-subtitle reveal reveal-delay-2" style="margin-top:16px;">
+            The Players Hub provides a safe space for players of all ages to develop confidence, technical ability, discipline and opportunity. From first steps on the pitch to pathways into elite football — we are here to support every stage of a player's journey.
+          </p>
+
+          <div class="about-pillars reveal reveal-delay-3">
+            <div class="about-pillar">
+              <div class="pillar-text">
+                <h4>Safe Environment</h4>
+                <p>A trusted, family-friendly space for players of all ages.</p>
+              </div>
+            </div>
+            <div class="about-pillar">
+              <div class="pillar-text">
+                <h4>Technical Development</h4>
+                <p>Structured sessions focused on real skill improvement.</p>
+              </div>
+            </div>
+            <div class="about-pillar">
+              <div class="pillar-text">
+                <h4>Confidence & Discipline</h4>
+                <p>Building character on and off the pitch.</p>
+              </div>
+            </div>
+            <div class="about-pillar">
+              <div class="pillar-text">
+                <h4>Elite Pathways</h4>
+                <p>Clear routes from grassroots to elite football.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       MISSION STATEMENT SECTION
+  ============================================================ -->
+  <section id="mission" aria-labelledby="mission-title">
+    <div class="mission-bg-decor" aria-hidden="true"></div>
+    <div class="container">
+      <div class="mission-inner">
+        <span class="section-label">Our Mission</span>
+        <h2 class="section-title reveal" id="mission-title" style="color:var(--white);">
+          What We <span class="gold-text">Stand For</span>
+        </h2>
+        <div class="divider-gold"></div>
+
+        <blockquote class="mission-quote reveal reveal-delay-1">
+          Our mission is to provide a safe space for players of all ages to build their football dreams, while giving parents peace of mind that their child is safe, supported and has the best chance of success.
+        </blockquote>
+
+        <div class="reveal reveal-delay-2" style="margin-top:48px;">
+          <a href="#signup" class="btn btn-primary">Join The Players Hub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOUNDER SECTION
+  ============================================================ -->
+  <section id="founder" aria-labelledby="founder-title">
+    <div class="container">
+      <div class="founder-grid founder-grid--text-only">
+
+        <!-- Founder bio -->
+        <div class="founder-content reveal">
+          <span class="section-label">Meet The Founder</span>
+          <h2 class="founder-name" id="founder-title">Michael Cooper</h2>
+          <p class="founder-title">Founder &amp; Director, The Players Hub</p>
+
+          <p class="founder-bio">
+            Michael Cooper founded The Players Hub with one clear goal: to create better opportunities, structure and development pathways for young footballers in North London.
+          </p>
+
+          <p class="founder-bio">
+            Having seen first-hand the talent that exists at grassroots level — and the lack of structured pathways available to many young players — Michael built The Players Hub to bridge that gap. His vision is to grow this development centre into a full club, with teams at every age group, and genuine routes into elite football for every player who comes through the door.
+          </p>
+
+          <p class="founder-bio">
+            At The Players Hub, every player is treated as an individual, given the support, structure and belief they need to achieve their potential. Michael is committed to building a programme that families can trust.
+          </p>
+
+          <div class="founder-values" role="list" aria-label="Founder's core values">
+            <span class="founder-value-tag" role="listitem">Player Development</span>
+            <span class="founder-value-tag" role="listitem">Family Trust</span>
+            <span class="founder-value-tag" role="listitem">Elite Pathways</span>
+            <span class="founder-value-tag" role="listitem">North London</span>
+            <span class="founder-value-tag" role="listitem">Grassroots to Elite</span>
+          </div>
+        </div>
+
+      </div><!-- /.founder-grid -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DEVELOPMENT PATHWAY SECTION
+  ============================================================ -->
+  <section id="pathway" aria-labelledby="pathway-title">
+    <div class="container">
+
+      <div class="pathway-header">
+        <span class="section-label">The Journey</span>
+        <h2 class="section-title reveal" id="pathway-title">
+          Your Development <span class="gold-text">Pathway</span>
+        </h2>
+        <div class="divider-gold"></div>
+        <p class="section-subtitle reveal reveal-delay-1">
+          A structured journey from grassroots foundations to elite football opportunities — every step designed with the player in mind.
+        </p>
+      </div>
+
+      <div class="pathway-steps">
+
+        <!-- Step 1 -->
+        <div class="pathway-card reveal">
+          <span class="pathway-step-num" aria-hidden="true">01</span>
+          <h3>Grassroots Player Development</h3>
+          <p>Every great player starts somewhere. Our grassroots programme gives beginners and developing players the fundamentals they need — in a safe, supportive and structured environment.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="pathway-card reveal reveal-delay-1">
+          <span class="pathway-step-num" aria-hidden="true">02</span>
+          <h3>Technical Training</h3>
+          <p>Coach-led sessions focused on real technical improvement: ball mastery, passing, movement, positioning and game intelligence — building the skills that separate good players from great ones.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="pathway-card reveal reveal-delay-2">
+          <span class="pathway-step-num" aria-hidden="true">03</span>
+          <h3>Confidence &amp; Discipline</h3>
+          <p>We develop the full player — not just their feet. Through structured sessions and a positive environment, players build mental resilience, self-belief, and the discipline that defines top performers.</p>
+        </div>
+
+        <!-- Step 4 (Showcase Games — featured) -->
+        <div class="pathway-card showcase reveal reveal-delay-3">
+          <div class="pathway-card-inner">
+            <div>
+              <h3>Showcase Games</h3>
+              <p>
+                Showcase matches are a core part of the development pathway at The Players Hub. These carefully organised games give players the platform to demonstrate their ability in a competitive yet supportive environment — helping them gain visibility, match experience and the confidence that only real game-time can provide.
+              </p>
+              <p style="margin-top:14px; color: var(--text-muted); font-size: 0.88rem;">
+                Showcase events are designed to attract the attention of scouts, coaches and academies, opening doors that might otherwise remain closed for grassroots talent.
+              </p>
+            </div>
+            <div class="showcase-highlights">
+              <div class="showcase-highlight">
+                <div class="showcase-highlight-dot" aria-hidden="true"></div>
+                <span>Real match experience in a structured setting</span>
+              </div>
+              <div class="showcase-highlight">
+                <div class="showcase-highlight-dot" aria-hidden="true"></div>
+                <span>Visibility for scouts &amp; academy coaches</span>
+              </div>
+              <div class="showcase-highlight">
+                <div class="showcase-highlight-dot" aria-hidden="true"></div>
+                <span>Builds confidence through competitive play</span>
+              </div>
+              <div class="showcase-highlight">
+                <div class="showcase-highlight-dot" aria-hidden="true"></div>
+                <span>Video &amp; performance feedback opportunities</span>
+              </div>
+              <div class="showcase-highlight">
+                <div class="showcase-highlight-dot" aria-hidden="true"></div>
+                <span>Family-friendly showcase events</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="pathway-card reveal">
+          <span class="pathway-step-num" aria-hidden="true">05</span>
+          <h3>Future Club Pathway</h3>
+          <p>As The Players Hub grows, we will build competitive teams at every age group. Players who develop with us will have the opportunity to represent The Players Hub FC when the time comes.</p>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="pathway-card reveal reveal-delay-1">
+          <span class="pathway-step-num" aria-hidden="true">06</span>
+          <h3>Elite Football Opportunities</h3>
+          <p>Our ultimate aim is to open doors to elite football. Through our showcase events, coaching network and development records, we aim to give talented players the best possible chance of reaching the highest levels.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TRAINING & PRICE PLANS
+  ============================================================ -->
+  <section id="pricing" aria-labelledby="pricing-title">
+    <div class="container">
+
+      <div class="pricing-header">
+        <span class="section-label">Training Plans</span>
+        <h2 class="section-title reveal" id="pricing-title">
+          Find the Right Plan <span class="gold-text">For You</span>
+        </h2>
+        <div class="divider-gold"></div>
+        <p class="section-subtitle reveal reveal-delay-1" style="margin: 0 auto; text-align:center;">
+          Transparent, accessible pricing — built to make elite development available to every player in North London.
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- Plan 1: Group Development Membership (Featured / Most Popular) -->
+        <div class="pricing-card featured reveal">
+          <div class="pricing-featured-badge">Most Popular</div>
+          <div class="pricing-title">Group Development Membership</div>
+          <div class="pricing-desc">Designed for consistent player development in a professional, structured environment.</div>
+          <div class="pricing-price">
+            <div class="price-amount">£40</div>
+            <span class="price-period">per person / per month</span>
+          </div>
+          <ul class="pricing-features" aria-label="Plan features">
+            <li><span class="feat-check" aria-hidden="true">✓</span> 1 group training session per week</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Monthly membership</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Coach-led structured sessions</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Player progress tracking</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Access to showcase events</li>
+          </ul>
+          <a href="#signup" class="btn btn-primary">Register Interest</a>
+        </div>
+
+        <!-- Plan 2: 1-to-1 + Group Training Blend -->
+        <div class="pricing-card reveal reveal-delay-1">
+          <div class="pricing-title">1-to-1 + Group Training Blend</div>
+          <div class="pricing-desc">A premium development pathway combining individual 1-to-1 coaching with group training — ideal for players who need focused technical work while still benefiting from team-based development.</div>
+          <div class="pricing-price">
+            <div class="price-on-request">Price on Request</div>
+            <span class="price-period">tailored packages available</span>
+          </div>
+          <ul class="pricing-features" aria-label="Plan features">
+            <li><span class="feat-check" aria-hidden="true">✓</span> Individual 1-to-1 coaching sessions</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Group training included</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Personalised development plan</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Direct coach feedback</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Access to showcase events</li>
+          </ul>
+          <a href="#signup" class="btn btn-gold-outline">Register Interest</a>
+        </div>
+
+        <!-- Plan 3: Showcase Games -->
+        <div class="pricing-card reveal reveal-delay-2">
+          <div class="pricing-title">Showcase Games</div>
+          <div class="pricing-desc">Dedicated showcase match packages giving players the visibility and competitive experience to step up and get noticed.</div>
+          <div class="pricing-price">
+            <div class="price-on-request">Price on Request</div>
+            <span class="price-period">per player / per event</span>
+          </div>
+          <ul class="pricing-features" aria-label="Plan features">
+            <li><span class="feat-check" aria-hidden="true">✓</span> Competitive match play</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Scout &amp; coach attendance</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Performance feedback</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Builds confidence through real game-time</li>
+            <li><span class="feat-check" aria-hidden="true">✓</span> Family-friendly showcase events</li>
+          </ul>
+          <a href="#signup" class="btn btn-gold-outline">Register Interest</a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SIGN UP SECTION
+  ============================================================ -->
+  <section id="signup" aria-labelledby="signup-title">
+    <div class="signup-bg-decor" aria-hidden="true"></div>
+    <div class="container">
+      <div class="signup-grid">
+
+        <!-- Left: text + benefits -->
+        <div class="signup-left reveal">
+          <span class="section-label">Join The Hub</span>
+          <h2>Sign Up<br><span class="gold-text">With Us</span></h2>
+          <p>
+            Register your interest today and take the first step towards structured football development. Whether you're looking for group sessions, individual coaching or showcase opportunities — we'd love to have you at The Players Hub.
+          </p>
+
+          <div class="signup-benefits" role="list" aria-label="Benefits of joining">
+            <div class="signup-benefit" role="listitem">
+              <span>Safe, structured and family-friendly environment</span>
+            </div>
+            <div class="signup-benefit" role="listitem">
+              <span>Expert coaching and real player development</span>
+            </div>
+            <div class="signup-benefit" role="listitem">
+              <span>Access to showcase events and elite pathways</span>
+            </div>
+            <div class="signup-benefit" role="listitem">
+              <span>Based in North London — serving the local community</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: form -->
+        <div class="signup-form-wrap reveal reveal-delay-1">
+          <h3 class="form-title">Register Your Interest</h3>
+
+          <form
+            class="signup-form"
+            id="signupForm"
+            action="https://formsubmit.co/michael@theplayershub.co.uk"
+            method="POST"
+            aria-label="Registration interest form"
+          >
+
+            <!-- ── FormSubmit configuration ── -->
+            <input type="hidden" name="_subject" value="New Player Registration – The Players Hub" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+
+            <!-- ── Honeypot spam trap (must stay hidden) ── -->
+            <input type="text" name="_honey" style="display:none;" tabindex="-1" autocomplete="off" />
+
+            <!-- Parent / Guardian Name + Player Name -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="parentName">Parent / Guardian Name *</label>
+                <input
+                  type="text"
+                  id="parentName"
+                  name="Parent Guardian Name"
+                  placeholder="Full name"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="playerName">Player Name *</label>
+                <input
+                  type="text"
+                  id="playerName"
+                  name="Player Name"
+                  placeholder="Player's full name"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Age Group + Email -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="ageGroup">Age Group *</label>
+                <select id="ageGroup" name="Age Group" required aria-required="true">
+                  <option value="" disabled selected>Select age group…</option>
+                  <option value="U6">Under 6 (U6)</option>
+                  <option value="U7">Under 7 (U7)</option>
+                  <option value="U8">Under 8 (U8)</option>
+                  <option value="U9">Under 9 (U9)</option>
+                  <option value="U10">Under 10 (U10)</option>
+                  <option value="U11">Under 11 (U11)</option>
+                  <option value="U12">Under 12 (U12)</option>
+                  <option value="U13">Under 13 (U13)</option>
+                  <option value="U14">Under 14 (U14)</option>
+                  <option value="U15">Under 15 (U15)</option>
+                  <option value="U16">Under 16 (U16)</option>
+                  <option value="U17">Under 17 (U17)</option>
+                  <option value="U18">Under 18 (U18)</option>
+                  <option value="Adult">Adult (18+)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="emailAddress">Email Address *</label>
+                <input
+                  type="email"
+                  id="emailAddress"
+                  name="Email Address"
+                  placeholder="your@email.com"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+              <label for="phoneNumber">Phone Number *</label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                name="Phone Number"
+                placeholder="+44 7700 000000"
+                required
+                autocomplete="tel"
+              />
+            </div>
+
+            <!-- Training Interest -->
+            <div class="form-group">
+              <label for="trainingInterest">Training Interest *</label>
+              <select id="trainingInterest" name="Training Interest" required aria-required="true">
+                <option value="" disabled selected>Select a training option…</option>
+                <option value="Group Development Membership – £40 PCM">Group Development Membership – £40 PCM</option>
+                <option value="1-to-1 + Group Training Blend">1-to-1 + Group Training Blend</option>
+                <option value="Showcase Games">Showcase Games</option>
+                <option value="Not sure yet – tell me more">Not sure yet – tell me more</option>
+              </select>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group">
+              <label for="message">Additional Message (Optional)</label>
+              <textarea
+                id="message"
+                name="Message"
+                placeholder="Tell us a little about the player, their experience or any questions you have…"
+                rows="4"
+              ></textarea>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary" id="submitBtn">
+                Register Interest
+              </button>
+            </div>
+
+            <p class="form-privacy">
+              Your information will only be used to contact you about The Players Hub. We never share your data with third parties.
+            </p>
+
+          </form>
+
+          <!-- Branded success message (shown after AJAX submission) -->
+          <div id="formSuccess" style="display:none; text-align:center; padding:40px 0;">
+            <div style="
+              width: 64px; height: 64px;
+              border-radius: 50%;
+              background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+              display: flex; align-items: center; justify-content: center;
+              margin: 0 auto 20px;
+              font-size: 1.8rem; color: var(--navy-800);
+            ">✓</div>
+            <h3 style="font-family:'Montserrat',sans-serif; font-weight:800; font-size:1.4rem; color:var(--gold-400); margin-bottom:12px;">
+              Registration Received
+            </h3>
+            <p style="color:var(--text-light); font-size:0.95rem; line-height:1.75; max-width:320px; margin:0 auto;">
+              Thank you for registering your interest in The Players Hub. Michael will be in touch with you shortly.
+            </p>
+            <div style="margin-top:28px;">
+              <a href="#about" class="btn btn-gold-outline" style="font-size:0.82rem;">
+                Learn More About Us
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <img src="logo.jpg" alt="The Players Hub logo" style="width:52px;height:52px;object-fit:contain;border-radius:50%;flex-shrink:0;display:block;" />
+            <div class="nav-brand">
+              <span class="nav-brand-name" style="font-size:1.05rem;">The Players Hub</span>
+              <span class="nav-brand-sub">North London</span>
+            </div>
+          </div>
+          <p>
+            A safe, structured football development centre in North London — helping players of all ages build their football dreams.
+          </p>
+        </div>
+
+        <!-- Quick links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#mission">Our Mission</a></li>
+            <li><a href="#founder">Meet the Founder</a></li>
+            <li><a href="#pathway">Development Pathway</a></li>
+          </ul>
+        </div>
+
+        <!-- Training -->
+        <div class="footer-col">
+          <h4>Training</h4>
+          <ul class="footer-links">
+            <li><a href="#pricing">Training Plans</a></li>
+            <li><a href="#pricing">Group Membership</a></li>
+            <li><a href="#pricing">1-to-1 Sessions</a></li>
+            <li><a href="#pricing">Showcase Games</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Get In Touch</h4>
+          <ul class="footer-links">
+            <li><a href="#signup">Register Interest</a></li>
+            <li><a href="mailto:michael@theplayershub.co.uk">michael@theplayershub.co.uk</a></li>
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer bottom bar -->
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; <span id="year"></span> <span>The Players Hub</span>. All rights reserved. North London.
+        </p>
+        <p class="footer-copy" style="font-size:0.72rem;">
+          Designed for grassroots football development.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+  <!-- ============================================================
+       JAVASCRIPT
+  ============================================================ -->
+
+  <script src="script.js"></script>
+</body>
+</html>
